@@ -24,8 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIf-D2-OSO">
-                                <rect key="frame" x="81.666666666666686" y="687" width="230" height="48"/>
-                                <color key="backgroundColor" red="0.88150376080000004" green="0.51800395830000001" blue="0.35734243570000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <rect key="frame" x="81.666666666666686" y="637.33333333333337" width="230" height="97.666666666666629"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="230" id="fzq-73-Rj4"/>
                                 </constraints>
@@ -34,6 +33,11 @@
                                 <state key="normal" title="Show Greeting">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <buttonConfiguration key="configuration" style="filled" title="Show Greeting" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
+                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" red="1" green="0.53227236160000002" blue="0.84694709300000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="greetingButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="wTZ-ef-IdX"/>
                                 </connections>
